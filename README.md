@@ -1,3 +1,16 @@
+# Fork Note (ElCapor)
+I decided to make the project cross-platform and cross-compiler by using the XMake compile backends.
+Features :
+- Should compile on both Windows and Linux (I don't own a macos, so idk bout that one)
+- XMake build system
+To Fix :
+- Swizzling Magnification
+- Mac OS support
+- WEB Build support
+
+Feel free to send pull requests I am active everyday
+
+NOTE : I kept the make files in the repo for reference but they are not needed
 # ShapeUp
 
 A 3D Modeling tool using constructive solid geometry. More information about the project [on my website](https://danielchasehooper.com/posts/shapeup/). This repo is a santitized copy of the original with commit history removed. I was never planning on doing a public release of this code, and I don't feel like auditing/changing the original repo's commit history for code/comments that shouldn't be public.  
