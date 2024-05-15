@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.fs": "c",
+        "dark.h": "c"
+    }
+}

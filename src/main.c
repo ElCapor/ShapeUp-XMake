@@ -4,8 +4,20 @@
 #include "string.h"
 #include "inttypes.h"
 #include <float.h> 
-#include "shaders.h"
+static unsigned char shader_prefix_fs[] = {
+    #include "shader_prefix.fs.h"
+};
 
+static unsigned char shader_base_fs[] = {
+    #include "shader_base.fs.h"
+};
+static unsigned char selection_fs[] = {
+    #include "selection.fs.h"
+};
+
+static unsigned char slicer_body_fs[] = {
+    #include "slicer_body.fs.h"
+};
 #define DEMO_VIDEO_FEATURES 0
 
 #ifdef PLATFORM_WEB
