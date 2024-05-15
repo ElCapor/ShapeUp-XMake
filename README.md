@@ -7,6 +7,7 @@ To Fix :
 - Swizzling Magnification
 - Mac OS support
 - WEB Build support
+- GCC Specific defines
 
 Feel free to send pull requests I am active everyday
 
