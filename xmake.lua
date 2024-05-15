@@ -2,6 +2,7 @@ add_rules("mode.debug", "mode.release")
 
 
 add_requires("raylib 4.5.0")
+-- temporary fix until i commit a patch in xmake-repo
 add_requireconfs("raygui.raylib", { version = "4.5.0", override = true })
 add_requires("raygui 4.0")
 target("ShapeUP")

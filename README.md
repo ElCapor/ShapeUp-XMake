@@ -12,6 +12,11 @@ To Fix :
 Feel free to send pull requests I am active everyday
 
 NOTE : I kept the make files in the repo for reference but they are not needed
+
+# Building
+Download and install XMake [https://github.com/xmake-io/xmake](https://github.com/xmake-io/xmake).
+
+Open a terminal in the directory containing xmake.lua and run `xmake`, it will figure out everything for you and build it
 # ShapeUp
 
 A 3D Modeling tool using constructive solid geometry. More information about the project [on my website](https://danielchasehooper.com/posts/shapeup/). This repo is a santitized copy of the original with commit history removed. I was never planning on doing a public release of this code, and I don't feel like auditing/changing the original repo's commit history for code/comments that shouldn't be public.  
