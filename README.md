@@ -3,8 +3,9 @@ I decided to make the project cross-platform and cross-compiler by using the XMa
 Features :
 - Should compile on both Windows and Linux (I don't own a macos, so idk bout that one)
 - XMake build system
+
 To Fix :
-- Swizzling Magnification
+- Swizzling/Magnification = Zoom
 - Mac OS support
 - WEB Build support
 - GCC Specific defines
