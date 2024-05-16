@@ -23,8 +23,3 @@ A 3D Modeling tool using constructive solid geometry. More information about the
 
 This project is not maintained. This repo exists just because a few people said they were interested in looking at the code for educational purposes. I'm not accepting bug reports, feature requests, or PRs.
 
-# Building
-
-for macOS run `make`  
-for web: run `./webbuild.sh`  
-for windows: 😢

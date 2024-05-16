@@ -1673,15 +1673,14 @@ int main(void)
                     CameraPitch(&camera, -delta.y * 0.003f, true, true, false);
                 }
             }
-            /*
-                        #ifndef PLATFORM_WEB
-                        extern float magnification;
-                        if (mouseAction == CONTROL_NONE ) {
-                            CameraMoveForward(&camera, 8*magnification, false);
-                        }
-                        magnification = 0;
-                        #endif
-            */
+            
+            #ifndef PLATFORM_WEB
+            int magnification = GetMouseWheelMove();
+            if (mouseAction == CONTROL_NONE && magnification!=0) {
+                CameraMoveForward(&camera, magnification, false);
+            }
+            #endif
+            
         }
 
         const float movement_scale = 0.1;
